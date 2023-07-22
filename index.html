@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job application</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <div class="mainbox">
+        <h1>Job Application<sub>(Web)</sub></h1>
+        <form>
+            <label id="first">First Name<br>
+                <input type="text" placeholder="Enter First Name..."></label>
+            <label id="last">Last Name<br>
+                <input type="text" placeholder="Enter Last Name..."></label>
+            <label id="email">Email<br>
+                <input type="text" placeholder="Enter Email..."></label>
+            <label class="jobrolel">Job Role<br>
+                <select  name="Select job Role" style="height: 29px; width:246px">
+                    <option value="Select job Role">Select Job Role</option>
+                    <option value="Editor">Editor</option>
+                    <option value="Management">Management</option>
+                    <option value="Front-end">Front-end</option>
+                    <option value="back-end">Back-end</option>
+                </select></label>
+            <label id="address">Address<br>
+                <textarea name="message" style="width:490px; height: 50px;" >Enter Address</textarea></label>
+            <label id="city">City<br>
+                <input type="text" placeholder="Enter City Name..."></label>
+            <label id="pincode">Pincode<br>
+                <input type="text" placeholder="Enter Pincode Name..."></label>
+            <label id="date">Date<br>
+                <input type="date" value="2022-01-10"></label>
+            <label id="upload">Upload Your CV<br>
+                <div id="box" ><input type="file" id="fil" ></div></label>
+            <input type="submit" value="Apply Now" id="submit">
+        </form>
+        
+
+    </div>
+    
+</body>
+</html>
+
+<style>
+*{
+    background-color: rgb(128, 128, 128);
+}
+.mainbox{
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    top: 50px;
+    left: 35%;
+}
+form,label,input,select,h1,sub,textarea,option,div{
+    background-color: white;
+}
+label{
+    margin-top: 15px;
+}
+input,select{
+    width: 240px;
+    height: 24px;
+    line-height: 15px;
+}
+sub{
+    position: relative;
+    bottom: 8px;
+    left: 6px;
+    font-size: 18px;
+    font-weight:bolder;
+}
+form{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+#box{
+    width: 245px;
+    height: 25px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit{
+    width: 80px;
+    height: 28px;
+    position:relative;
+    left: 420px;
+    top: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+</style>
