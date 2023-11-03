@@ -57,7 +57,7 @@ form{
     border-radius: 5px;
     cursor: pointer;
 }
-.error {
+.error{
     display: none;
     width: 80%;
     height: 15px;
@@ -70,3 +70,27 @@ form{
     border-radius: 0 5px 5px 5px;
     /* border:1px solid #f4e07a; */
 }
+p{
+    color: red;
+    width: auto;
+    margin:0;
+    padding: 0;
+    display: inline;
+    background-color: white;
+}
+.success{
+    display: none;
+    width: 80%;
+    height: 15px;
+    font-size: 100%;
+    margin-top: 5px;
+    color: rgb(18, 177, 18) ;
+    text-align: center;
+    position: relative;
+    right: 40px;
+    background-color: white;
+    /* border:1px solid #f4e07a; */
+}
+/* input:invalid {
+    border: 2px dashed red;
+  } */
